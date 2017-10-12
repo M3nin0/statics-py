@@ -21,3 +21,7 @@ album.rename(columns ={ 'ArtistId': 'Artist_Id'}, inplace = True)
 # Veja que o merge não irá funcionar
 # album_artist = pd.merge(artist, album)
 
+# Para resolver este problema basta especificar o que cada elemento tem de diferente
+# Isso faz o pandas entender que eles são iguais e junta-los
+album_artist = pd.merge(album, artist, left_on= 'Artist_Id', right_on = 'ArtistId')
+
