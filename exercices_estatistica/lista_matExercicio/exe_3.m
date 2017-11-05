@@ -16,11 +16,11 @@ clear all;
 notas = [6, 7, 8, 9];
 peso = [4, 4, 2, 2];
 
-p = 0
+p = 0;
 for x = 1:size(notas,2)
    p = (notas(x) * peso(x)) + p;
 end
 
-media = p / 12 % A divisão é feita pela soma de todos os pesos
+media = p / 12; % A divisão é feita pela soma de todos os pesos
 
 disp(media)
