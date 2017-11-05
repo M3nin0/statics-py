@@ -11,5 +11,7 @@ O foco do repositório será em Python, porém isso não impede a utilização d
 * Variância;
 * Desvio padrão.
 
+Tem também um pouco de cálculo numérico e estatística descritiva
+
 # Colabore!
 Caso queira colaborar com execícios e ou soluções, ficarei feliz =D.
